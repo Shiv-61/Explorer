@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            min-height: 100vh;
+            background-image: url(login.jpg);
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .log{
+            height: 600px;
+            width: 450px;
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0px 0px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .pro{
+            height: 100px;
+            width: 100px;
+            top: 0%;
+            border-radius: 50%;
+            background-image: url(prop.jpg);
+            background-size: cover;
+            box-shadow: 0px 0px 20px;
+            
+        }
+        .inp{
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            color: rgb(36, 36, 54);
+        }
+        .user{
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+        }
+        #p{
+            float: right;
+            margin-top: -40px;
+        }
+        #u{
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+    <div class="log">
+        <div class="pro">
+        </div>
+        <br>
+        <div class="inp">
+            <div class="user">
+                <h3>UserName</h3>
+            <h3 id="u">User1</h3>
+            </div>
+        <div class="num">
+            <h3>PassWord</h3>
+            <h3 id="p">abc@123</h3>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

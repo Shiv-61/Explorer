@@ -1,0 +1,485 @@
+body
+{
+  background-color: rgb(24, 23, 24);
+}
+.vid{
+  height: 500px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#back_video{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+#back_video{
+   width: auto;
+   height: 700px;
+   box-shadow: 0px 0px 30px white;
+   top: 20px;
+   left: 125px;
+   border-radius: 50px;
+}
+#intro
+{
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+    color: white;
+}
+#intro>h1
+{
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    -webkit-text-stroke: 2px white;
+     color:transparent;
+     margin-top: 5px;
+     filter: brightness(110%);
+}
+h1
+{
+  font-family:"Times New Roman", Times, serif;
+  letter-spacing: .2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hello
+{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+#container
+{
+  height: 52px;
+  width: 800px;
+  background-color: rgb(6, 142, 196);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  align-items: center;  
+}
+#Home
+{
+  height:35px;
+  width: 90px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Home:hover
+{
+  height: 52px;
+  width: 90px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#MyProfile
+{
+  height:35px;
+  width: 120px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#MyProfile:hover
+{
+  height: 52px;
+  width: 120px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ContactUs
+{
+  height:35px;
+  width: 120px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ContactUs:hover
+{
+  height: 52px;
+  width: 120px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spot
+{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+#mount
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(mount.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+}
+#but{
+  background-color: transparent;
+  height: 392px;
+  width: 722px;
+  border-style: none;
+  
+}
+#beach
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+}
+#temple
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(mandir.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+}
+#snow
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(snow.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+}
+#desert
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(desert.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+}
+#nature
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(nature.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+}
+#mount:hover
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(mount.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+  filter: brightness(90%);
+}
+#desert:hover
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(desert.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+  filter: brightness(90%);
+}
+#nature:hover
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(nature.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+  filter: brightness(90%);
+}
+#temple:hover
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(mandir.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+  filter: brightness(90%);
+}
+#beach:hover
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+  filter: brightness(90%);
+}
+#snow:hover
+{
+  height: 392px;
+  width: 711px;
+  border-radius: 10px;
+  background-image: url(snow.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 5px;
+  border-style: solid;
+  border-color: black;
+  filter: brightness(90%);
+}
+#t1{
+  color: black;
+}
+#t2{
+  color: black;
+}
+#t3{
+  color: black;
+}
+#mount > image :hover
+{
+  opacity: 0.3;
+}
+#beach > image :hover
+{
+  opacity: 0.3;
+}
+#temple > image :hover
+{
+  opacity: 0.3;
+}
+#nature > image :hover
+{
+  opacity: 0.3;
+}
+#snow > image :hover
+{
+  opacity: 0.3;
+}
+.con1
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  font-size: 50px;
+}
+.con1:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(112px);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.con1 > h5:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(132px);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  opacity: 1;
+}
+.con2
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  font-size: 50px;
+}
+.con2:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(112px);
+  color: rgb(54, 54, 250);
+  opacity: 1;
+}
+.con2 > h5:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(132px);
+  color: rgb(54, 54, 250);
+  font-size: 15px;
+  opacity: 1;
+}
+.con3
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  font-size: 50px;
+}
+.con3:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(112px);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.con3 > h5:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(132px);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  opacity: 1;
+}
+.con4
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  font-size: 50px;
+}
+.con4:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(112px);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.con4 > h5:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(132px);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  opacity: 1;
+}
+.con5
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  font-size: 50px;
+}
+.con5:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(112px);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.con5 > h5:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(132px);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  opacity: 1;
+}
+.con6
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  font-size: 50px;
+}
+.con6:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(112px);
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+.con6 > h5:hover
+{
+  transition: all 0.4s ease-in;
+  transform: translateY(132px);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  opacity: 1;
+}
+footer
+{
+  display: flex;
+  justify-content: center;
+  color: rgb(9, 9, 9);
+  font-size: large;
+  font-family: sans-serif;
+}
+.down
+{
+  height : 150px;
+  width : 1600px;
+  border-style : solid ;
+  border-width : 1px;
+  border-radius: 5px;
+  display: flex;
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 0px 0px 20px blue;
+  box-shadow: 0px 0px 20px greenyellow;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 26, 26);
+}

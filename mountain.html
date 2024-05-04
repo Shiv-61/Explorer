@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Destination</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .image {
+    margin-right: 20px;
+  }
+  .description {
+    flex-grow: 1;
+  }
+  .price {
+    font-size: 24px;
+    color: green;
+    margin-top: 10px;
+  }
+  .book-now-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+  }
+  .book-now-btn:hover {
+    background-color: darkblue;
+  }
+</style>
+<script>
+  function function1(){
+    window.open("final.html");
+  }
+</script>
+</head>
+<body>
+<div class="container">
+  <img src="gulmarg.jpeg.jpg" alt="Place Image" class="image" width="300">
+  <div class="description">
+    <h2>Gulmarg</h2>
+    <p>Gulmarg literally means “Meadow of flowers”. Gulmarg is located 60 KMs away from Srinagar which is an hour and half journey by car. Gulmarg has attracted millions of tourists throughout its existence with the scenic beauty of the Himalayan Mountains in the back drop.</p>
+    <div class="price">Price: $799 (for 11 days/10 nights)</div>
+    <button class="book-now-btn" onclick="function1()">Book Now</button>
+  </div>
+</div>
+
+</body>
+</html>

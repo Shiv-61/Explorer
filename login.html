@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            min-height: 100vh;
+            background-image: url(login.jpg);
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .log{
+            height: 600px;
+            width: 450px;
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0px 0px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .pro{
+            height: 100px;
+            width: 100px;
+            top: 0%;
+            border-radius: 50%;
+            background-image: url(prop.jpg);
+            background-size: cover;
+            box-shadow: 0px 0px 20px;
+            
+        }
+        .inp{
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            color: rgb(36, 36, 54);
+        }
+        .user{
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+        }
+        #o1{
+            height: 20px;
+            width: 150px;
+            margin: 20px;
+            border-radius: 5px;
+            margin-left: 100px;
+            background-color: rgb(177, 185, 193);
+            backdrop-filter: brightness(50px);
+        }
+        #o1:hover{
+            height: 20px;
+            width: 150px;
+            margin: 20px;
+            border-radius: 5px;
+            margin-left: 100px;
+            filter:brightness(80%);
+            background-color: rgb(177, 185, 193);
+            backdrop-filter: brightness(50px);
+        }
+        .num{
+            display: flex;
+            flex-direction: row;
+            margin-right: 100px;
+        }
+        #n1{
+            height: 20px;
+            width: 150px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 100px;
+            filter: grayscale(50%);
+            background-color: rgb(177, 185, 193);
+        }
+        #n1:hover{
+            height: 20px;
+            width: 150px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 100px;
+            filter: brightness(80%);
+            background-color: rgb(177, 185, 193);
+        }
+        .temp{
+            height: 40px;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #t{
+            height: 40px;
+            width: 145px;
+            background-color: rgba(0, 148, 253, 0.955);
+            border-radius: 10px;
+            margin-top: 50px;
+            border-color:  rgba(0, 148, 253, 0.955);;
+            letter-spacing: 5px;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            text-decoration-line: none;
+        }
+        #t:hover{
+            height: 40px;
+            width: 145px;
+            background-color: rgba(0, 148, 253, 0.955);
+            border-radius: 10px;
+            border-color:  rgba(0, 148, 253, 0.955);;
+            margin-top: 50px;
+            font-family: sans-serif;
+            letter-spacing: 5px;
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            filter: brightness(70%);
+        }
+        .separater{
+            height: 2px;
+            width: 400px;
+            background-color: black;
+            border: 1px;
+            border-style: solid;
+            margin-top: 42px;
+        }
+        #b
+        {
+            height:40px;
+            width: 140px;
+            letter-spacing: 3px;
+            font-size: 25px;
+            border-radius: 7px;
+            font-family: sans-serif;
+            margin-top: 30px;
+            background-color:  rgba(0, 148, 253, 0.955);
+            border-color:  rgba(0, 148, 253, 0.955);
+            color: black;
+
+        }
+        #b:hover
+        {
+            height: 40px;
+            width: 140px;
+            letter-spacing: 3px;
+            font-size: 25px;
+            font-family: sans-serif;
+            background-color:  rgba(0, 148, 253, 0.955);
+            border-radius: 10px;
+            border-color:  rgba(0, 148, 253, 0.955);
+            filter: brightness(70%);
+        }
+    </style>
+    <script>
+        function funct_log(){
+            event.preventDefault();
+            let user = document.getElementById("o1").value;
+            let mob = document.getElementById("n1").value;
+        if(user==="" || mob==="")
+        {
+            alert("Kindly Fill the Details");
+        }
+        else{
+            window.open("explorer.html");
+        }
+        }
+        function funct_sign(){
+            event.preventDefault();
+            window.open("signup.html");
+        }
+    </script>
+</head>
+<body>
+    <div class="home">
+    <div class="log">
+        <div class="pro">
+        </div>
+        <br>
+        <div class="inp">
+            <div class="user">
+                <h3>UserName</h3>
+            <input type="text" id="o1" placeholder=" UserName">
+            </div>
+        <div class="num">
+            <h3>PassWord</h3>
+            <input type="password" id="n1" maxlength="4" placeholder="4-digit">
+        </div>
+    </div>
+    <div class="temp">
+        <div class="sub">
+          <button id="t" onclick="funct_log()">Login</button>     
+        </div>
+        </div>
+        <div class="separater"></div>
+        <div class="signup">
+              <button id="b" onclick="funct_sign()">SignUp</button> 
+        </div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.image-container {
+    height: 100px; /* Make the container take up the full viewport height */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align the image to the bottom of the container */
+  }
+  
+  .fade-in-image {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
